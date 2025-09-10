@@ -1,37 +1,47 @@
 element.style {
   justify-content: space-between;
+  display:flex;
+    flex-direction:row;
+
 }
 
 .container {
     border: 5px dotted;
     position: relative;
     min-height: 50%;
-     width: 70;
+     width: 90%;
     padding: >5px;
     display: flex;
-        flex-direction: row;
+        flex-direction: row ;
     flex-wrap: wrap;
-    max-width:468px;
+    max-width:700;
+    justify-content: space-between;
 }
 .card-second {
-    border: 2px salmon;
-    align-self: center
-;  padding: 20px;
+    display: flex;
+    border: 5px darkgreen;
+    border-radius:>15px;
+    justify-content: center;
+ padding: 20px;
     min-height:min-content;
-    width: 30%;
-    padding:0cqb
-;    margin: 10px;
+    width: 468;
+    ;    margin: 10px;
     flex: 1;
-    text-align: center;
+    height:160;
+    
 }
+
 .box
 {
-    border: 2px solid;
+    border: 5px darkgreen;
+    border-radius:>15px;
     display:flex;
     flex-wrap:column-reverse;
     justify-content: center;
-    ;
+    padding: 20px;
+    margin: 10px;
     flex-shrink : 1;
-    min-height: 200px;
-    width: 200px;
+    min-height: 160px;
+    width: 468px;
  background-color: lightpink;}
+    justify-content: center;
