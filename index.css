@@ -16,9 +16,9 @@
 
 
 .container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display:inline
+    flex-direction: column;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -26,19 +26,19 @@
     padding: 20px;
     box-sizing: border-box;
     background-color: lightgrey;   
-    width: 1000px;
-    height: 500px }
+    width: 1152px;
+    height: 700px }
 
 .box {
-    display: flex;
+    
     border: 5px darkgreen;
     border-radius:15px;
     justify-content: center;
      padding: 20px;
-    min-height:min-content;
+    height: 160px;
     width: 468;
      margin: 10px;
-    flex: 1;
+    
     height:160;
     
 }
@@ -46,59 +46,74 @@
 .box2
 {
     border: 5px darkgreen;
-    border-radius:15px;
-    display:flex;
-    flex-wrap:column-reverse;
+    width:468px;
+    height:160px;
+    margin-top:20px;
+    margin-left:20px;
+    display:inline-flex;
+    
     justify-content: center;
-    padding: 20px;
-    margin: 10px;
-    flex-shrink : 1;
-    min-height: 160px;
-    width: 468px;
- background-color: lightpink;}
+    align-items: stretch;
+    background-color: lightpink;
+
+    
+    
+     }
+
+ .box-2_box {
+    width:78px;
+    background-color: violet;¨
+    border-radius:5px;
+    justify-content:space-between;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+ }
     
 
     .box1
     {
         border: 5px darkgreen;
-        width:300px;
+        width:468px;
         height:160px;
         border-radius:15px;
         border: 5px; 
         padding: 20px;
-        flex:1;
+        
         margin: 10px;   
         background-color: lightblue;
-        box-sizing: border-box;
-        display:flex;}
+        
+        display:inline-flex;}
 
         .box3
         {
             border: 5px darkgreen;
             border-radius:15px;
-            width:300px;
+            width:468px;
             height:160px;
             border: 5px; 
             padding: 20px;
-            flex:1;
+            
             margin: 10px;   
             background-color: lightgreen;
-            box-sizing: border-box;
-            display:flex;}
+            
+            display:inline-flex;}
 
             .box4
             {
                 border: 5px darkgreen;
                 border-radius:15px;
-                width:300px;
+                width:468px;
                 height:160px;
                 border: 5px; 
                 padding: 20px;
-                flex:1;
+                
                 margin: 10px;   
                 background-color: lightyellow;
-                box-sizing: border-box;
-                display:flex;}
+                
+                display:inline-flex;}
 
                 .box5
                 {
@@ -106,7 +121,7 @@
                     border-radius:15px; 
                     
                     
-                    width:300px;
+                    width:468px;
                     height:160px;
                     
                     padding: 20px;
@@ -115,19 +130,19 @@
                      border-radius:15px;      
                     background-color: lightcoral;
                     
-                    display:flex;}  
+                    display:inline-flex;}  
 
 
                     .box6
                     {
                         border: 5px darkgreen;
                         border-radius:15px;
-                        width:300px;
+                        width:468px;
                         height:160px;
                         border: 5px; 
                         padding: 20px;
-                        flex:1;
+                        
                         margin: 10px;   
                         background-color: lightseagreen;
-                        box-sizing: border-box;
-                        display:flex;}  
+                        
+                        display:inline-flex;}  
