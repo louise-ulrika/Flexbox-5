@@ -1,9 +1,8 @@
 
-.element-style {
-    color: blue;
-    justify-content: space-between;
-}
-.body { 
+
+
+.body {
+    display:flex; 
     font-family: Arial, sans-serif;
     margin:200px;
     padding: 300px;
@@ -18,13 +17,13 @@
 .container {
     display:flex;
     flex-wrap:wrap;
-    align-items:space-around;
-    justify-content:flex-end;
+    align-items:center;
+    justify-content:space-around;
     
     
     background-color: lightgrey;   
-   max-width:1200px;
-   min-height:1400px; 
+   max-width:1152px;
+   min-height:700px; 
    border:5px darkgreen;
    width:100%;}
 
@@ -39,7 +38,7 @@
     width: 468px;
      margin-top:20px;   
      margin-left:20px;
-     display:inline-flex;
+     display:flex;
      justify-content:center;
      align-items:stretch;
     background-color: lightpink;
@@ -94,7 +93,7 @@
     height:120px;
     border:5px darkgreen;
     padding: 20px;  
-    justify-content: space-between;
+    justify-content:space-between;
 
 
  }
@@ -164,9 +163,8 @@
                 border-radius:15px;
                 width:468px;
                 height:160px;
-                border: 5px; 
-                padding: 20px;
-                
+                border:5px; 
+                padding:20px;
                 margin-top:20px;   
                  margin-left:20px;
                  display:flex;
@@ -220,30 +218,5 @@
             justify-content: space-between;}
 
 
-                    .box6
-                    {
-                        border: 5px darkgreen;
-                        border-radius:15px;
-                        width:468px;
-                        height:160px;
-                        border: 5px; 
-                        padding: 20px;
-                        
-                        margin top:20px;   
-                        margin left:20px;
-                        display:flex;
-                        justify-content: center;
-                        align-items: stretch;  
-                         
-                        background-color: lightseagreen;}
-                        
-                
-                        .box6_box {
-                            width:78px;
-                            height:78px;
-                            background-color: violet;
-                            border-radius:5px;
-                            margin-left:20px;
-                            margin-top:20px;
-                            display: flex;
-                            justify-content: space-between;}
+                    
+                    
