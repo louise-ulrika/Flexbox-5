@@ -16,13 +16,7 @@
 
 
 .container {
-    display:inline
-    flex-direction: column;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 20px;
+    display:inline flex
     padding: 20px;
     box-sizing: border-box;
     background-color: lightgrey;   
@@ -33,7 +27,8 @@
     
     border: 5px darkgreen;
     border-radius:15px;
-    justify-content: center;
+    display:inline-flex;
+
      padding: 20px;
     height: 160px;
     width: 468;
@@ -48,12 +43,13 @@
     border: 5px darkgreen;
     width:468px;
     height:160px;
-    margin-top:20px;
-    margin-left:20px;
+    margin: 10px;
+    padding:20px;
+    border-radius:15px;
     display:inline-flex;
     
-    justify-content: center;
-    align-items: stretch;
+    
+    
     background-color: lightpink;
 
     
@@ -61,13 +57,15 @@
      }
 
  .box-2_box {
-    width:78px;
+    width:
     background-color: violet;¨
-    border-radius:5px;
-    justify-content:space-between;
-    margin-left:20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    border-radius:15px;
+
+    margin: 10px;
+    display:inline-flex;
+    height:
+    border:5px darkgreen;
+    padding: 20px;  
 
 
  }
@@ -86,6 +84,14 @@
         background-color: lightblue;
         
         display:inline-flex;}
+        .box1_box {
+            width:78px;
+            height:78px;
+            background-color: violet;
+            border-radius:5px;
+            margin-left:20 px;
+            margin-top:20 px;
+        }
 
         .box3
         {
