@@ -141,12 +141,23 @@
             margin-top:20px;   
             margin-left:20px;
             display:flex;
-            justify-content: center;
+            justify-content:space-between;
             align-items: center;
             background-color: lightgreen;
             
             }
 
+            .box3_1_box
+            {
+                width:78px;
+                height:78px;
+                display:flex;
+                background-color:violet;
+                border-radius:5px;
+                margin-top:20px;
+                margin-left:20px;
+                align-self:flex-start;
+            }
             .box3_box {
                 width:78px;
                 height:78px;
@@ -155,10 +166,19 @@
                 border-radius:5px;
                 margin-left:20px;
                 margin-top:20px;
-                
-                
+                align-self:flex-start;
             }
-
+            .box3_3_box
+            {
+                width:78px;
+                height:78px;
+                display:flex;
+                background-color:violet;
+                border-radius:5px;
+                margin-top:20px;
+                margin-left:20px;
+                align-self:flex-end;
+            }
             .box4
             {
                 border:5px darkgreen;
@@ -170,12 +190,24 @@
     
                 margin-top:20px;   
                 margin-left:20px;
-                justify-content:center;
+                justify-content:space-between;
                 align-items:stretch;  
                 background-color: lightyellow;
                 
                 }
 
+
+                .box4_1_box
+                {
+                width:78px;
+                height:78px;
+                display:flex;
+                background-color:green;
+                border-radius:5px;
+                margin-top:20px;
+                margin-left:20px;
+                align-self:stretch;
+                }
                 .box4_box {
                     width:78px;
                     height:78px;
@@ -187,6 +219,18 @@
                     
                     
                 }   
+
+                .box4_3_box
+                {
+                    width:78px;
+                height:78px;
+                display:flex;
+                background-color:violet;
+                border-radius:5px;
+                margin-top:20px;
+                margin-left:20px;
+                align-self:stretch;
+                }
 
                 .box5
                 {
@@ -213,7 +257,8 @@
             margin-left:20px;
             margin-top:20px;
             display: flex;
-            justify-content: space-between;}
+            justify-content: space-between;
+             }
 
 
                     
