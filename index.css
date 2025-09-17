@@ -49,7 +49,7 @@
 .box_box {
     width:78px;
     background-color: violet;
-    border-radius:15px;
+    
 
     margin: 10px;
     display:flex;
@@ -64,9 +64,6 @@
     border: 5px darkgreen;
     width:468px;
     height:160px;
-    
-    
-    border-radius:15px;
     display:flex;
     margin-top:20px;   
      margin-left:20px;
@@ -87,7 +84,7 @@
  .box2_box {
     width:78px;
     background-color: violet;
-    border-radius:15px;
+    
     margin:10px;
     display:flex;
     height:78px;
